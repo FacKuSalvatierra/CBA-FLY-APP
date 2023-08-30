@@ -1,5 +1,5 @@
 # CBA-FLY-APP
-## _ISPC - Proyecto integrador fullstack - Grupo 98_
+## _ISPC - Proyecto Programador de Aplicaciones Móviles - Grupo 98_
 
 ## Esto es una aplicación móvil que acompaña a nuestra applicación web: 👉🏻👉 https://github.com/FacKuSalvatierra/CBA-FLY
 
