@@ -4,17 +4,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/design_default_color_surface"
-        android:text="Hola 😎"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="317dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="617dp"
+        android:contentDescription="Logo de CBA-Fly"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.48000002" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="370dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:inputType="textEmailAddress"
+        android:text="xentoasfi@gmail.com"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="370dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:inputType="textPassword"
+        android:text="********"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="168dp"
+        android:layout_height="98dp"
+        android:background="#00B0FF"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Entrar"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="784dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
