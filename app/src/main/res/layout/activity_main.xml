@@ -11,27 +11,15 @@
         android:id="@+id/imageView"
         android:layout_width="317dp"
         android:layout_height="125dp"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="70dp"
-        android:layout_marginBottom="617dp"
         android:contentDescription="Logo de CBA-Fly"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.553"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="50dp" />
 
     <EditText
         android:id="@+id/loginEmail"
         android:layout_width="370dp"
         android:layout_height="80dp"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="70dp"
         android:autofillHints=""
         android:ems="10"
         android:fontFamily="@font/poppins"
@@ -39,18 +27,13 @@
         android:inputType="textEmailAddress"
         android:textAlignment="center"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/loginPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="247dp" />
 
     <EditText
         android:id="@+id/loginPassword"
         android:layout_width="370dp"
         android:layout_height="80dp"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginEnd="76dp"
         android:autofillHints=""
         android:ems="10"
         android:fontFamily="@font/poppins"
@@ -58,9 +41,8 @@
         android:inputType="textPassword"
         android:textAlignment="center"
         android:textSize="34sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginEmail" />
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="356dp" />
 
     <Button
         android:id="@+id/loginbutton"
@@ -72,6 +54,7 @@
         android:layout_marginEnd="148dp"
         android:layout_marginBottom="54dp"
         android:backgroundTint="@color/light_blue2"
+        android:contentDescription="Botón para iniciar sesión"
         android:fontFamily="@font/poppins"
         android:gravity="center_horizontal|center_vertical"
         android:onClick="iniciarSesion"
@@ -83,7 +66,7 @@
         android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintHorizontal_bias="0.285"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginPassword"
         app:layout_constraintVertical_bias="0.0"
@@ -91,22 +74,34 @@
         app:strokeWidth="1dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/recoveryButton"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="209dp"
-        tools:layout_editor_absoluteY="880dp" />
+        android:contentDescription="Botón que te lleva a recuperar tu contraseña"
+        android:fontFamily="@font/poppins"
+        android:onClick="goRecovery"
+        android:text="¿Te olvidaste la contraseña? Entrá aca"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="767dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/registerButton"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="209dp"
-        tools:layout_editor_absoluteY="809dp" />
+        android:contentDescription="Botón que te lleva a crearte una cuenta"
+        android:fontFamily="@font/poppins"
+        android:onClick="goRegister"
+        android:text="¿No tenés cuenta? ¡Registrate!"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="679dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

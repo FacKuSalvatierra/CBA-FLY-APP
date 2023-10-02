@@ -2,10 +2,10 @@ package com.example.cba_fly_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -16,7 +16,16 @@ public class MainActivity extends AppCompatActivity {
         EditText password = findViewById(R.id.loginPassword);
     }
     public void iniciarSesion(View v) {
-        Toast.makeText(this, "¡Botón apretado!", Toast.LENGTH_SHORT).show();
+        Intent login=new Intent(this, Profile.class);
+        startActivity(login);
+    }
+    public void goRegister(View v) {
+        Intent register=new Intent(this, RegisterAccount.class);
+        startActivity(register);
+    }
+    public void goRecovery(View v) {
+        Intent recovery=new Intent(this, PasswordRecovery.class);
+        startActivity(recovery);
     }
     @Override
     protected void onStart() {
