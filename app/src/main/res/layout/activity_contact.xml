@@ -55,6 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
+        android:focusable="true"
         android:contentDescription="QR que lleva a la página web de CBA-Fly"
         app:srcCompat="@drawable/qrcbaflycontacto"
         tools:layout_editor_absoluteX="73dp"

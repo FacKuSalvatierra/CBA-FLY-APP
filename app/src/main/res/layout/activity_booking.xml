@@ -7,4 +7,141 @@
     android:background="@drawable/gradient_background"
     tools:context=".Booking">
 
+    <TextView
+        android:id="@+id/bookingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Vuelos"
+        android:fontFamily="@font/poppins"
+        android:text="Vuelos"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <TextView
+        android:id="@+id/infoOrigen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Origen"
+        android:fontFamily="@font/poppins"
+        android:text="Origen"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <TextView
+        android:id="@+id/infoDestino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Destino"
+        android:fontFamily="@font/poppins"
+        android:text="Destino"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <TextView
+        android:id="@+id/infoHoraSalida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Horario Salida"
+        android:fontFamily="@font/poppins"
+        android:text="Horario Salida"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <TextView
+        android:id="@+id/infoHoraLlegada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Horario Llegada"
+        android:fontFamily="@font/poppins"
+        android:text="Horario Llegada"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <TextView
+        android:id="@+id/infoDuracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Duración"
+        android:fontFamily="@font/poppins"
+        android:text="Duración"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <TextView
+        android:id="@+id/infoNumeroVuelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Número Vuelo"
+        android:fontFamily="@font/poppins"
+        android:text="Número Vuelo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <TextView
+        android:id="@+id/infoTipoAvion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Tipo Avión"
+        android:fontFamily="@font/poppins"
+        android:text="Tipo Avión"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <TextView
+        android:id="@+id/infoMonto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Monto"
+        android:fontFamily="@font/poppins"
+        android:text="Monto"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/light_blue2"
+        android:contentDescription="Botón para regresar a Inicio"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="volverAtras"
+        android:text="Volver"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:typeface="normal"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="630dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
