@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background"
     tools:context=".MainActivity">
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="317dp"
@@ -65,6 +64,5 @@
         android:typeface="normal"
         tools:layout_editor_absoluteX="159dp"
         tools:layout_editor_absoluteY="784dp" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
