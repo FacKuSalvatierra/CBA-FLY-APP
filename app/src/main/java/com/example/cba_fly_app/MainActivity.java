@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     public void iniciarSesion(View v) {
         Intent login=new Intent(this, Profile.class);
         startActivity(login);
+        Toast.makeText(this, "Sesión iniciada correctamente.", Toast.LENGTH_LONG).show();
     }
     public void goRegister(View v) {
         Intent register=new Intent(this, RegisterAccount.class);

@@ -18,111 +18,175 @@
         android:textColor="@color/black"
         android:textSize="34sp"
         tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="37dp" />
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/infoOrigen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="116dp"
+        android:layout_height="49dp"
+        android:background="@drawable/border"
         android:contentDescription="Origen"
         android:fontFamily="@font/poppins"
+        android:padding="4dp"
+        android:paddingStart="4dp"
+        android:paddingLeft="4dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="4dp"
         android:text="Origen"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/whiteish"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="130dp" />
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="91dp" />
 
     <TextView
         android:id="@+id/infoDestino"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/border"
         android:contentDescription="Destino"
         android:fontFamily="@font/poppins"
+        android:padding="4dp"
+        android:paddingStart="4dp"
+        android:paddingLeft="4dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="4dp"
         android:text="Destino"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/whiteish"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="194dp" />
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="157dp" />
 
     <TextView
         android:id="@+id/infoHoraSalida"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/border"
         android:contentDescription="Horario Salida"
         android:fontFamily="@font/poppins"
+        android:padding="4dp"
+        android:paddingStart="4dp"
+        android:paddingLeft="4dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="4dp"
         android:text="Horario Salida"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/whiteish"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="248dp" />
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="223dp" />
 
     <TextView
         android:id="@+id/infoHoraLlegada"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/border"
         android:contentDescription="Horario Llegada"
         android:fontFamily="@font/poppins"
+        android:padding="4dp"
+        android:paddingStart="4dp"
+        android:paddingLeft="4dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="4dp"
         android:text="Horario Llegada"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/whiteish"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="309dp" />
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="292dp" />
 
     <TextView
         android:id="@+id/infoDuracion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/border"
         android:contentDescription="Duración"
         android:fontFamily="@font/poppins"
+        android:padding="4dp"
+        android:paddingStart="4dp"
+        android:paddingLeft="4dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="4dp"
         android:text="Duración"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/whiteish"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="369dp" />
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="357dp" />
 
     <TextView
         android:id="@+id/infoNumeroVuelo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/border"
         android:contentDescription="Número Vuelo"
         android:fontFamily="@font/poppins"
+        android:padding="4dp"
+        android:paddingStart="4dp"
+        android:paddingLeft="4dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="4dp"
         android:text="Número Vuelo"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/whiteish"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="430dp" />
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="420dp" />
 
     <TextView
         android:id="@+id/infoTipoAvion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/border"
         android:contentDescription="Tipo Avión"
         android:fontFamily="@font/poppins"
+        android:padding="4dp"
+        android:paddingStart="4dp"
+        android:paddingLeft="4dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="4dp"
         android:text="Tipo Avión"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/whiteish"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="496dp" />
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="484dp" />
 
     <TextView
         android:id="@+id/infoMonto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/border"
         android:contentDescription="Monto"
         android:fontFamily="@font/poppins"
+        android:padding="4dp"
+        android:paddingStart="4dp"
+        android:paddingLeft="4dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="4dp"
         android:text="Monto"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/whiteish"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="558dp" />
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="546dp" />
 
     <Button
         android:id="@+id/button"
@@ -142,6 +206,6 @@
         app:strokeColor="@color/black"
         app:strokeWidth="1dp"
         tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="630dp" />
+        tools:layout_editor_absoluteY="618dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

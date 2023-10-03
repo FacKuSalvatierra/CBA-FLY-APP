@@ -11,38 +11,54 @@
         android:id="@+id/logoCba"
         android:layout_width="317dp"
         android:layout_height="125dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="10dp"
         android:contentDescription="Logo de CBA-Fly"
-        app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="52dp" />
+        app:layout_constraintBottom_toTopOf="@+id/loginEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
 
     <EditText
         android:id="@+id/loginEmail"
         android:layout_width="370dp"
         android:layout_height="80dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="12dp"
         android:autofillHints=""
         android:ems="10"
         android:fontFamily="@font/poppins"
         android:hint="E-mail"
         android:inputType="textEmailAddress"
         android:textAlignment="center"
+        android:textColorHint="#1A237E"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="212dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoCba" />
 
     <EditText
         android:id="@+id/loginPassword"
         android:layout_width="370dp"
         android:layout_height="80dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="12dp"
         android:autofillHints=""
         android:ems="10"
         android:fontFamily="@font/poppins"
         android:hint="Contraseña"
         android:inputType="textPassword"
         android:textAlignment="center"
+        android:textColorHint="#1A237E"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="321dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginEmail" />
 
     <Button
         android:id="@+id/loginButton"
@@ -50,9 +66,9 @@
         android:layout_width="168dp"
         android:layout_height="98dp"
         android:layout_marginStart="154dp"
-        android:layout_marginTop="54dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="148dp"
-        android:layout_marginBottom="54dp"
+        android:layout_marginBottom="4dp"
         android:backgroundTint="@color/light_blue2"
         android:contentDescription="Botón para iniciar sesión"
         android:fontFamily="@font/poppins"
@@ -69,7 +85,7 @@
         app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginPassword"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.078"
         app:strokeColor="@color/black"
         app:strokeWidth="1dp" />
 
@@ -78,6 +94,10 @@
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="155dp"
         android:contentDescription="Botón que te lleva a recuperar tu contraseña"
         android:fontFamily="@font/poppins"
         android:onClick="goRecovery"
@@ -85,14 +105,20 @@
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/black"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="675dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerButton" />
 
     <Button
         android:id="@+id/registerButton"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="5dp"
         android:contentDescription="Botón que te lleva a crearte una cuenta"
         android:fontFamily="@font/poppins"
         android:onClick="goRegister"
@@ -100,8 +126,10 @@
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/black"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="596dp" />
+        app:layout_constraintBottom_toTopOf="@+id/recoveryButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

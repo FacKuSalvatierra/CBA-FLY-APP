@@ -14,4 +14,6 @@
     <color name="orange">#FF7F00</color>
     <color name="red">#FF0000</color>
     <color name="light_blue2">#00BBFF</color>
+    <color name="darkblue">#1A24AB</color>
+    <color name="whiteish">#E1E2E8</color>
 </resources>
