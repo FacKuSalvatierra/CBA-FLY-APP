@@ -11,19 +11,29 @@
         android:id="@+id/bookingTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="2dp"
         android:contentDescription="Vuelos"
         android:fontFamily="@font/poppins"
         android:text="Vuelos"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toTopOf="@+id/infoOrigen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/infoOrigen"
-        android:layout_width="116dp"
-        android:layout_height="49dp"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="2dp"
         android:background="@drawable/border"
         android:contentDescription="Origen"
         android:fontFamily="@font/poppins"
@@ -38,13 +48,19 @@
         android:textAlignment="center"
         android:textColor="@color/whiteish"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="91dp" />
+        app:layout_constraintBottom_toTopOf="@+id/infoDestino"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookingTitle" />
 
     <TextView
         android:id="@+id/infoDestino"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="2dp"
         android:background="@drawable/border"
         android:contentDescription="Destino"
         android:fontFamily="@font/poppins"
@@ -59,13 +75,19 @@
         android:textAlignment="center"
         android:textColor="@color/whiteish"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="157dp" />
+        app:layout_constraintBottom_toTopOf="@+id/infoHoraSalida"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoOrigen" />
 
     <TextView
         android:id="@+id/infoHoraSalida"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="2dp"
         android:background="@drawable/border"
         android:contentDescription="Horario Salida"
         android:fontFamily="@font/poppins"
@@ -80,13 +102,19 @@
         android:textAlignment="center"
         android:textColor="@color/whiteish"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="223dp" />
+        app:layout_constraintBottom_toTopOf="@+id/infoHoraLlegada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoDestino" />
 
     <TextView
         android:id="@+id/infoHoraLlegada"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="2dp"
         android:background="@drawable/border"
         android:contentDescription="Horario Llegada"
         android:fontFamily="@font/poppins"
@@ -101,13 +129,19 @@
         android:textAlignment="center"
         android:textColor="@color/whiteish"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="292dp" />
+        app:layout_constraintBottom_toTopOf="@+id/infoDuracion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoHoraSalida" />
 
     <TextView
         android:id="@+id/infoDuracion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="2dp"
         android:background="@drawable/border"
         android:contentDescription="Duración"
         android:fontFamily="@font/poppins"
@@ -122,13 +156,19 @@
         android:textAlignment="center"
         android:textColor="@color/whiteish"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="357dp" />
+        app:layout_constraintBottom_toTopOf="@+id/infoNumeroVuelo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoHoraLlegada" />
 
     <TextView
         android:id="@+id/infoNumeroVuelo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="2dp"
         android:background="@drawable/border"
         android:contentDescription="Número Vuelo"
         android:fontFamily="@font/poppins"
@@ -143,13 +183,19 @@
         android:textAlignment="center"
         android:textColor="@color/whiteish"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="420dp" />
+        app:layout_constraintBottom_toTopOf="@+id/infoTipoAvion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoDuracion" />
 
     <TextView
         android:id="@+id/infoTipoAvion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="2dp"
         android:background="@drawable/border"
         android:contentDescription="Tipo Avión"
         android:fontFamily="@font/poppins"
@@ -164,13 +210,19 @@
         android:textAlignment="center"
         android:textColor="@color/whiteish"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="484dp" />
+        app:layout_constraintBottom_toTopOf="@+id/infoMonto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoNumeroVuelo" />
 
     <TextView
         android:id="@+id/infoMonto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="2dp"
         android:background="@drawable/border"
         android:contentDescription="Monto"
         android:fontFamily="@font/poppins"
@@ -185,13 +237,19 @@
         android:textAlignment="center"
         android:textColor="@color/whiteish"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="546dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoTipoAvion" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="80dp"
         android:backgroundTint="@color/light_blue2"
         android:contentDescription="Botón para regresar a Inicio"
         android:fontFamily="@font/poppins"
@@ -201,11 +259,13 @@
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoMonto"
         app:strokeColor="@color/black"
-        app:strokeWidth="1dp"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="618dp" />
+        app:strokeWidth="1dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

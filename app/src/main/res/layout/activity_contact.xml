@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="359dp"
+        android:layout_width="360dp"
         android:layout_height="64dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="27dp"
@@ -29,7 +29,7 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="358dp"
+        android:layout_width="360dp"
         android:layout_height="46dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="3dp"
@@ -50,7 +50,7 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="319dp"
+        android:layout_width="360dp"
         android:layout_height="112dp"
         android:layout_marginStart="37dp"
         android:layout_marginTop="57dp"
@@ -88,7 +88,7 @@
     <Button
         android:id="@+id/returnButton"
         android:layout_width="159dp"
-        android:layout_height="53dp"
+        android:layout_height="70dp"
         android:layout_marginStart="117dp"
         android:layout_marginTop="3dp"
         android:layout_marginEnd="117dp"
@@ -102,7 +102,7 @@
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

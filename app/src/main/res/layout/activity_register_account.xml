@@ -27,8 +27,8 @@
 
     <EditText
         android:id="@+id/inputFullName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
         android:layout_marginStart="45dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="46dp"
@@ -48,10 +48,10 @@
 
     <EditText
         android:id="@+id/inputEmailRg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
         android:layout_marginStart="45dp"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="3dp"
         android:layout_marginEnd="46dp"
         android:layout_marginBottom="26dp"
         android:autofillHints=""
@@ -60,7 +60,7 @@
         android:hint="Correo electrónico"
         android:inputType="textEmailAddress"
         android:textAlignment="center"
-        android:textColorHint="#1A237E"
+        android:textColorHint="#3E2723"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,8 +69,8 @@
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
         android:layout_marginStart="45dp"
         android:layout_marginTop="3dp"
         android:layout_marginEnd="46dp"
@@ -81,7 +81,7 @@
         android:hint="Contraseña"
         android:inputType="textPassword"
         android:textAlignment="center"
-        android:textColorHint="#263238"
+        android:textColorHint="#3E2723"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/registerButtonRg"
         app:layout_constraintEnd_toEndOf="parent"
@@ -90,8 +90,8 @@
 
     <Button
         android:id="@+id/registerButtonRg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="204dp"
+        android:layout_height="78dp"
         android:layout_marginStart="104dp"
         android:layout_marginTop="7dp"
         android:layout_marginEnd="105dp"
@@ -105,7 +105,7 @@
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@android:color/black"
-        android:textSize="24sp"
+        android:textSize="26sp"
         android:typeface="normal"
         app:layout_constraintBottom_toTopOf="@+id/loginButtonRg"
         app:layout_constraintEnd_toEndOf="parent"
@@ -130,6 +130,7 @@
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/black"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
