@@ -15,9 +15,9 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="140dp"
         android:layout_marginBottom="2dp"
-        android:contentDescription="Vuelos"
+        android:contentDescription="@string/vuelos"
         android:fontFamily="@font/poppins"
-        android:text="Vuelos"
+        android:text="@string/vuelos"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="34sp"
@@ -35,7 +35,7 @@
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="2dp"
         android:background="@drawable/border"
-        android:contentDescription="Origen"
+        android:contentDescription="@string/origen"
         android:fontFamily="@font/poppins"
         android:padding="4dp"
         android:paddingStart="4dp"
@@ -44,14 +44,15 @@
         android:paddingEnd="4dp"
         android:paddingRight="4dp"
         android:paddingBottom="4dp"
-        android:text="Origen"
+        android:text="@string/origen"
         android:textAlignment="center"
         android:textColor="@color/whiteish"
         android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/infoDestino"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bookingTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/bookingTitle"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/infoDestino"
@@ -62,7 +63,7 @@
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="2dp"
         android:background="@drawable/border"
-        android:contentDescription="Destino"
+        android:contentDescription="@string/destino"
         android:fontFamily="@font/poppins"
         android:padding="4dp"
         android:paddingStart="4dp"
@@ -71,14 +72,15 @@
         android:paddingEnd="4dp"
         android:paddingRight="4dp"
         android:paddingBottom="4dp"
-        android:text="Destino"
+        android:text="@string/destino"
         android:textAlignment="center"
         android:textColor="@color/whiteish"
         android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/infoHoraSalida"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/infoOrigen" />
+        app:layout_constraintTop_toBottomOf="@+id/infoOrigen"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/infoHoraSalida"
@@ -89,7 +91,7 @@
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="2dp"
         android:background="@drawable/border"
-        android:contentDescription="Horario Salida"
+        android:contentDescription="@string/horario_salida"
         android:fontFamily="@font/poppins"
         android:padding="4dp"
         android:paddingStart="4dp"
@@ -98,14 +100,15 @@
         android:paddingEnd="4dp"
         android:paddingRight="4dp"
         android:paddingBottom="4dp"
-        android:text="Horario Salida"
+        android:text="@string/horario_salida"
         android:textAlignment="center"
         android:textColor="@color/whiteish"
         android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/infoHoraLlegada"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/infoDestino" />
+        app:layout_constraintTop_toBottomOf="@+id/infoDestino"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/infoHoraLlegada"
@@ -116,7 +119,7 @@
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="2dp"
         android:background="@drawable/border"
-        android:contentDescription="Horario Llegada"
+        android:contentDescription="@string/horario_llegada"
         android:fontFamily="@font/poppins"
         android:padding="4dp"
         android:paddingStart="4dp"
@@ -125,14 +128,15 @@
         android:paddingEnd="4dp"
         android:paddingRight="4dp"
         android:paddingBottom="4dp"
-        android:text="Horario Llegada"
+        android:text="@string/horario_llegada"
         android:textAlignment="center"
         android:textColor="@color/whiteish"
         android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/infoDuracion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/infoHoraSalida" />
+        app:layout_constraintTop_toBottomOf="@+id/infoHoraSalida"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/infoDuracion"
@@ -143,7 +147,7 @@
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="2dp"
         android:background="@drawable/border"
-        android:contentDescription="Duración"
+        android:contentDescription="@string/duracion"
         android:fontFamily="@font/poppins"
         android:padding="4dp"
         android:paddingStart="4dp"
@@ -152,14 +156,15 @@
         android:paddingEnd="4dp"
         android:paddingRight="4dp"
         android:paddingBottom="4dp"
-        android:text="Duración"
+        android:text="@string/duracion"
         android:textAlignment="center"
         android:textColor="@color/whiteish"
         android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/infoNumeroVuelo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/infoHoraLlegada" />
+        app:layout_constraintTop_toBottomOf="@+id/infoHoraLlegada"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/infoNumeroVuelo"
@@ -170,7 +175,7 @@
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="2dp"
         android:background="@drawable/border"
-        android:contentDescription="Número Vuelo"
+        android:contentDescription="@string/numero_vuelo"
         android:fontFamily="@font/poppins"
         android:padding="4dp"
         android:paddingStart="4dp"
@@ -179,14 +184,15 @@
         android:paddingEnd="4dp"
         android:paddingRight="4dp"
         android:paddingBottom="4dp"
-        android:text="Número Vuelo"
+        android:text="@string/numero_vuelo"
         android:textAlignment="center"
         android:textColor="@color/whiteish"
         android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/infoTipoAvion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/infoDuracion" />
+        app:layout_constraintTop_toBottomOf="@+id/infoDuracion"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/infoTipoAvion"
@@ -197,7 +203,7 @@
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="2dp"
         android:background="@drawable/border"
-        android:contentDescription="Tipo Avión"
+        android:contentDescription="@string/tipo_avion"
         android:fontFamily="@font/poppins"
         android:padding="4dp"
         android:paddingStart="4dp"
@@ -206,14 +212,15 @@
         android:paddingEnd="4dp"
         android:paddingRight="4dp"
         android:paddingBottom="4dp"
-        android:text="Tipo Avión"
+        android:text="@string/tipo_avion"
         android:textAlignment="center"
         android:textColor="@color/whiteish"
         android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/infoMonto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/infoNumeroVuelo" />
+        app:layout_constraintTop_toBottomOf="@+id/infoNumeroVuelo"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/infoMonto"
@@ -224,7 +231,7 @@
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="2dp"
         android:background="@drawable/border"
-        android:contentDescription="Monto"
+        android:contentDescription="@string/monto"
         android:fontFamily="@font/poppins"
         android:padding="4dp"
         android:paddingStart="4dp"
@@ -233,14 +240,15 @@
         android:paddingEnd="4dp"
         android:paddingRight="4dp"
         android:paddingBottom="4dp"
-        android:text="Monto"
+        android:text="@string/monto"
         android:textAlignment="center"
         android:textColor="@color/whiteish"
         android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/infoTipoAvion" />
+        app:layout_constraintTop_toBottomOf="@+id/infoTipoAvion"
+        tools:ignore="TextSizeCheck" />
 
     <Button
         android:id="@+id/button"
@@ -251,11 +259,11 @@
         android:layout_marginEnd="132dp"
         android:layout_marginBottom="80dp"
         android:backgroundTint="@color/light_blue2"
-        android:contentDescription="Botón para regresar a Inicio"
+        android:contentDescription="@string/bot_n_para_regresar_a_inicio"
         android:fontFamily="@font/poppins"
         android:gravity="center_horizontal|center_vertical"
         android:onClick="volverAtras"
-        android:text="Volver"
+        android:text="@string/volver"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@android:color/black"

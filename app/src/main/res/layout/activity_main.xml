@@ -15,7 +15,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="38dp"
         android:layout_marginBottom="10dp"
-        android:contentDescription="Logo de CBA-Fly"
+        android:contentDescription="@string/logo_de_cba_fly"
         app:layout_constraintBottom_toTopOf="@+id/loginEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +32,7 @@
         android:autofillHints=""
         android:ems="10"
         android:fontFamily="@font/poppins"
-        android:hint="E-mail"
+        android:hint="@string/correoElectronico"
         android:inputType="textEmailAddress"
         android:textAlignment="center"
         android:textColorHint="#3E2723"
@@ -52,7 +52,7 @@
         android:autofillHints=""
         android:ems="10"
         android:fontFamily="@font/poppins"
-        android:hint="Contraseña"
+        android:hint="@string/contrasena"
         android:inputType="textPassword"
         android:textAlignment="center"
         android:textColorHint="#3E2723"
@@ -72,11 +72,11 @@
         android:layout_marginEnd="148dp"
         android:layout_marginBottom="4dp"
         android:backgroundTint="@color/light_blue2"
-        android:contentDescription="Botón para iniciar sesión"
+        android:contentDescription="@string/bot_n_para_iniciar_sesi_n"
         android:fontFamily="@font/poppins"
         android:gravity="center_horizontal|center_vertical"
         android:onClick="iniciarSesion"
-        android:text="Entrar"
+        android:text="@string/entrar"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@android:color/black"
@@ -99,10 +99,10 @@
         android:layout_marginTop="5dp"
         android:layout_marginEnd="37dp"
         android:layout_marginBottom="155dp"
-        android:contentDescription="Botón que te lleva a recuperar tu contraseña"
+        android:contentDescription="@string/botonRecuperarContrasena12"
         android:fontFamily="@font/poppins"
         android:onClick="goRecovery"
-        android:text="¿Te olvidaste la contraseña? Entrá aca"
+        android:text="@string/olvidasteContrasena"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/black"
@@ -110,7 +110,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/registerButton" />
+        app:layout_constraintTop_toBottomOf="@+id/registerButton"
+        tools:ignore="TextSizeCheck,VisualLintButtonSize" />
 
     <Button
         android:id="@+id/registerButton"
@@ -121,10 +122,10 @@
         android:layout_marginTop="43dp"
         android:layout_marginEnd="66dp"
         android:layout_marginBottom="5dp"
-        android:contentDescription="Botón que te lleva a crearte una cuenta"
+        android:contentDescription="@string/botonCrearCuenta"
         android:fontFamily="@font/poppins"
         android:onClick="goRegister"
-        android:text="¿No tenés cuenta? ¡Registrate!"
+        android:text="@string/no_ten_s_cuenta_registrate"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/black"
@@ -132,7 +133,8 @@
         app:layout_constraintBottom_toTopOf="@+id/recoveryButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginButton" />
+        app:layout_constraintTop_toBottomOf="@+id/loginButton"
+        tools:ignore="VisualLintButtonSize" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

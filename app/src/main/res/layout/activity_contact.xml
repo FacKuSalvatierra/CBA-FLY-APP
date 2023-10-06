@@ -8,16 +8,16 @@
     tools:context=".Contact">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tocarQr1"
         android:layout_width="360dp"
         android:layout_height="64dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="27dp"
         android:layout_marginEnd="18dp"
         android:layout_marginBottom="20dp"
-        android:contentDescription="Texto describiendo acciones del QR"
+        android:contentDescription="@string/describiendoAccionQr"
         android:fontFamily="@font/poppins"
-        android:text="¡Tocá el QR para ir directo a nuestra página!"
+        android:text="@string/tocarQr"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="24sp"
@@ -25,48 +25,51 @@
         app:layout_constraintBottom_toTopOf="@+id/enlaceQR"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/correoElectronicocbafly"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/correoElectronicocbafly"
         android:layout_width="360dp"
         android:layout_height="46dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="3dp"
         android:layout_marginEnd="17dp"
         android:layout_marginBottom="4dp"
-        android:contentDescription="Correo electrónico de contacto"
+        android:contentDescription="@string/correoContacto"
         android:fontFamily="@font/poppins"
-        android:text="cbafly-contacto@gmail.com"
+        android:text="@string/cbaflyEmail"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="22sp"
         android:textStyle="italic"
         android:typeface="normal"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintBottom_toTopOf="@+id/tocarQr1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/descripcionContact"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/descripcionContact"
         android:layout_width="360dp"
         android:layout_height="112dp"
         android:layout_marginStart="37dp"
         android:layout_marginTop="57dp"
         android:layout_marginEnd="37dp"
         android:layout_marginBottom="5dp"
-        android:contentDescription="Cómo contactarnos"
+        android:contentDescription="@string/como_contactarnos"
         android:fontFamily="@font/poppins"
-        android:text="Podés contactarnos a través de nuestro correo o página web:"
+        android:text="@string/podesContactarnos"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:typeface="normal"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintBottom_toTopOf="@+id/correoElectronicocbafly"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
 
     <ImageButton
         android:id="@+id/enlaceQR"
@@ -77,12 +80,12 @@
         android:layout_marginEnd="74dp"
         android:layout_marginBottom="6dp"
         android:clickable="true"
-        android:contentDescription="QR que lleva a la página web de CBA-Fly"
+        android:contentDescription="@string/qrVaPaginaCba_fly"
         android:focusable="true"
         app:layout_constraintBottom_toTopOf="@+id/returnButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/tocarQr1"
         app:srcCompat="@drawable/qrcbaflycontacto" />
 
     <Button
@@ -94,11 +97,11 @@
         android:layout_marginEnd="117dp"
         android:layout_marginBottom="3dp"
         android:backgroundTint="@color/light_blue2"
-        android:contentDescription="Botón para regresar a Perfil"
+        android:contentDescription="@string/boton_para_regresar_a_perfil"
         android:fontFamily="@font/poppins"
         android:gravity="center_horizontal|center_vertical"
         android:onClick="volverAtras"
-        android:text="Volver"
+        android:text="@string/volver"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@android:color/black"

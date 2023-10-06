@@ -9,17 +9,32 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    private EditText email, password;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        EditText email = findViewById(R.id.loginEmail);
-        EditText password = findViewById(R.id.loginPassword);
+
+        email = (EditText)findViewById(R.id.loginEmail);
+        password =(EditText)findViewById(R.id.loginPassword);
     }
     public void iniciarSesion(View v) {
-        Intent login=new Intent(this, Profile.class);
-        startActivity(login);
-        Toast.makeText(this, "Sesión iniciada correctamente.", Toast.LENGTH_LONG).show();
+        String correo = email.getText().toString();
+        String contrasena = password.getText().toString();
+        if(correo.trim().length()==0) {
+            Toast.makeText(this, "Hace falta colocar un Correo", Toast.LENGTH_LONG).show();
+            return;
+        }
+        if(contrasena.trim().length()==0) {
+            Toast.makeText(this, "Hace falta colocar una contraseña", Toast.LENGTH_LONG).show();
+            return;
+        }
+        if(correo.trim().length()!=0 && contrasena.trim().length()!=0) {
+            Intent login=new Intent(this, Profile.class);
+            login.putExtra("dato", correo);
+            startActivity(login);
+            Toast.makeText(this, "Sesión iniciada correctamente", Toast.LENGTH_LONG).show();
+        }
     }
     public void goRegister(View v) {
         Intent register=new Intent(this, RegisterAccount.class);
