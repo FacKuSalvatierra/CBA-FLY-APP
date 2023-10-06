@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             Intent login=new Intent(this, Profile.class);
             login.putExtra("dato", correo);
             startActivity(login);
-            Toast.makeText(this, "Sesión iniciada correctamente", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Sesión iniciada correctamente", Toast.LENGTH_SHORT).show();
         }
     }
     public void goRegister(View v) {

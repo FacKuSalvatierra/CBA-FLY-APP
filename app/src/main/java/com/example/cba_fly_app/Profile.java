@@ -17,7 +17,7 @@ public class Profile extends AppCompatActivity {
         TextView saludo = (TextView)findViewById(R.id.profileTitle);
 
         String dato = getIntent().getStringExtra("dato");
-        saludo.setText("Hola" + dato);
+        saludo.setText("Hola " + dato);
     }
     public void goBooking(View v) {
         Intent book=new Intent(this, Booking.class);
@@ -34,6 +34,6 @@ public class Profile extends AppCompatActivity {
     public void cerrarSesion(View v) {
         Intent logout=new Intent(this, MainActivity.class);
         startActivity(logout);
-        Toast.makeText(this, "Sesión cerrada correctamente.", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Sesión cerrada correctamente.", Toast.LENGTH_SHORT).show();
     }
 }

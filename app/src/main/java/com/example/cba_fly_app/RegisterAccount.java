@@ -38,8 +38,9 @@ public class RegisterAccount extends AppCompatActivity {
         }
         if(nomcomRg.trim().length()!=0 && correoRg.trim().length()!=0 && contrasenaRg.trim().length()!=0) {
             Intent register = new Intent(this, Profile.class);
+            register.putExtra("dato", nomcomRg);
             startActivity(register);
-            Toast.makeText(this, "¡Cuenta creada exitosamente!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "¡Cuenta creada exitosamente!", Toast.LENGTH_SHORT).show();
         }
     }
 

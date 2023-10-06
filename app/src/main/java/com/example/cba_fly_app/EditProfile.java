@@ -62,7 +62,7 @@ public class EditProfile extends AppCompatActivity {
         }
         if(nomcompf.trim().length()!=0 && correopf.trim().length()!=0 && telefonopf.trim().length()!=0 && documentopf.trim().length()!=0 &&
                 codpospf.trim().length()!=0 && paispf.trim().length()!=0 && ciudadpf.trim().length()!=0) {
-            Toast.makeText(this, "¡Información cambiada!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "¡Información cambiada!", Toast.LENGTH_SHORT).show();
             Intent goBack=new Intent(this, Profile.class);
             startActivity(goBack);
         }
