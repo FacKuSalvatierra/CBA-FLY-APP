@@ -2,7 +2,9 @@ package com.example.cba_fly_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -15,10 +17,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        email = (EditText)findViewById(R.id.loginEmail);
-        password =(EditText)findViewById(R.id.loginPassword);
+        email = findViewById(R.id.loginEmail);
+        password = findViewById(R.id.loginPassword);
+
+        SharedPreferences preferences = getSharedPreferences("datos", Context.MODE_PRIVATE);
+        email.setText(preferences.getString("correo", ""));
+
     }
     public void iniciarSesion(View v) {
+        SharedPreferences preferencias = getSharedPreferences("datos", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editorObj = preferencias.edit();
+        editorObj.putString("correo", email.getText().toString());
+        editorObj.apply();
         String correo = email.getText().toString();
         String contrasena = password.getText().toString();
         if(correo.trim().length()==0) {
