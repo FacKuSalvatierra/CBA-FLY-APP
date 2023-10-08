@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background"
     tools:context=".MainActivity">
-
     <ImageView
         android:id="@+id/logoCba"
         android:layout_width="317dp"
@@ -135,6 +134,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginButton"
         tools:ignore="VisualLintButtonSize" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
