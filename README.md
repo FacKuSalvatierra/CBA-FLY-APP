@@ -6,7 +6,7 @@
 CBA FLY APP es un proyecto de aplicación móvil cuya finalidad es darle la opción al cliente de poder revisar sus vuelos comprados (lo que llamamos "Booking") y revisar y editar sus datos de una manera rápida y segura.
 Lo que intentamos con este ejercicio, es adquirir experiencia en el desafiante arte de trabajar en equipo, utilizando herramientas como Github y Android Studio con ayuda de Java. 
 
-- Nuestro Kanban: [https://trello.com/b/jUuKw2yl/proyecto-integrador ](https://github.com/users/FacKuSalvatierra/projects/5)
+- Nuestro Kanban: [Github Projects](https://github.com/users/FacKuSalvatierra/projects/5)
 - Landing Page de nuestra aplicación: https://cbafly-3f52e.web.app/app
 
 ## Quiénes somos
