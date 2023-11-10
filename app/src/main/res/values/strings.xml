@@ -44,7 +44,7 @@
     <string name="podesContactarnos">Podés contactarnos a través de nuestro correo o página web:</string>
     <string name="cbaflyEmail">cbafly-contacto@gmail.com</string>
     <string name="correoContacto">Correo electrónico de contacto</string>
-    <string name="tocarQr">¡Tocá el QR para ir directo a nuestra página!</string>
+    <string name="tocarQr">¡Tocá el QR para ir a nuestra página!</string>
     <string name="describiendoAccionQr">Texto describiendo acciones del QR</string>
     <string name="vuelos">Vuelos</string>
     <string name="origen">Origen</string>

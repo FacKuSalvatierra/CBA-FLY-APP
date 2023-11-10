@@ -9,7 +9,6 @@ import android.widget.ImageButton;
 
 public class Contact extends AppCompatActivity {
     private ImageButton cuboQr;
-    public String urlcba = "https://cbafly-3f52e.web.app/contacto";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,7 +18,6 @@ public class Contact extends AppCompatActivity {
     }
     public void goWeb(View v) {
         Intent goCbafly=new Intent(this, ActWebView.class);
-        goCbafly.putExtra("sitioWeb", urlcba);
         startActivity(goCbafly);
     }
     public void volverAtras(View v) {

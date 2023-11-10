@@ -18,4 +18,13 @@ public class ActWebView extends AppCompatActivity {
         wbvw.setWebViewClient(new WebViewClient());
         wbvw.loadUrl(urlcba);
     }
+    @Override
+    protected void onStart() {
+        super.onStart();
+        setContentView(R.layout.activity_act_web_view);
+
+        wbvw = (WebView)findViewById(R.id.webViewContc);
+        wbvw.setWebViewClient(new WebViewClient());
+        wbvw.loadUrl(urlcba);
+    }
 }
